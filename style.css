@@ -1,0 +1,82 @@
+:root {
+  --color-primary: #516546;
+  --color-secondary: #dce1dc;
+  --color-white: #ffffff;
+
+  --rgb-primary: 81, 101, 70;
+  --rgb-secondary: 220, 225, 220;
+  --rgb-white: 255, 255, 255;
+}
+
+body {
+  color: var(--color-primary);
+  line-height: 1.6;
+}
+
+h1, h2, h3,h4{
+  color: var(--color-primary);
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 1.25rem;
+}
+
+h1 { font-size: 60px; }
+h2 { font-size: 50px; }
+h3 { font-size: 30px; }
+
+.section-gray {background-color: var(--color-secondary);}
+
+.section-green {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.menu-background{background-color: rgba(0, 0, 0, 0.4);}
+
+/* Párrafos dentro de secciones */
+.text-section p,a {
+  color: var(--color-primary);
+  font-size: 24px;
+}
+
+/* Línea encima del enlace ver mas*/
+.accented-link {
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.accented-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 4px;
+  background-color: #4CAF50;
+}
+
+/* Sombra degradada sobre imagenes*/
+.shadow-overlay {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1rem;
+  color: inherit;
+}
+
+.shadow-overlay-white {
+  background: linear-gradient(to top, rgba(var(--rgb-white), 1), rgba(var(--rgb-white), 0.95), rgba(var(--rgb-white), 0.8), rgba(var(--rgb-white), 0.0));
+}
+
+.shadow-overlay-green {
+  background: linear-gradient(to top, rgba(var(--rgb-primary), 1), rgba(var(--rgb-primary), 0.95), rgba(var(--rgb-primary), 0.8), rgba(var(--rgb-primary), 0.0));
+}
+
+.shadow-overlay-gray {
+  background: linear-gradient(to top, rgba(var(--rgb-secondary), 1), rgba(var(--rgb-secondary), 0.95), rgba(var(--rgb-secondary), 0.8), rgba(var(--rgb-secondary), 0.0));
+}
