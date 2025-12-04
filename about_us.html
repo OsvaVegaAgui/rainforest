@@ -6,94 +6,87 @@
     <meta name="description" content="Discover authentic Costa Rican tours and experiences with local guides in La Fortuna and the Arenal Volcano area.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link href="assets/css/main.css" rel="stylesheet">
-
+    <link href="assets/css/about_us.css" rel="stylesheet">
 </head>
+
 <body>
 
-    <header class="position-absolute top-0 start-0 w-100 z-3">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-dark menu-background">
-                <div class="container-fluid px-4">
+<header class="position-absolute top-0 start-0 w-100 z-3">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark menu-background">
+            <div class="container-fluid px-4">
 
-                    <!-- Logo -->
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/img/logo.png" alt="Rainforest Explorers Logo" height="40">
-                    </a>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png" alt="Rainforest Explorers Logo" height="40">
+                </a>
 
-                    <!-- Botón hamburguesa -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHero"
-                    aria-controls="navbarHero" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHero">
                     <span class="navbar-toggler-icon"></span>
-                    </button>
+                </button>
 
-                    <!-- Enlaces del menú -->
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarHero">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="#">Full and Half Day Combos</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="#">Essentials</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="#">Favorites</a></li>
-                            <li class="nav-item"><a class="nav-link text-white" href="#">About Us</a></li>
-                        </ul>
-                    </div>
-
+                <div class="collapse navbar-collapse justify-content-end" id="navbarHero">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Full and Half Day Combos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Essentials</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Favorites</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">About Us</a></li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-    </header>
 
-<!-- ========================================================= -->
-
-<section class="hero-about position-relative">
-
-    <div class="container-fluid px-0">
-        <div class="position-relative">
-
-            <!-- Contenedor que controla la altura -->
-            <div class="hero-wrapper ratio ratio-21x9 overflow-hidden">
-                <img src="assets/img/slide.webp" 
-                     class="w-100 h-100 object-fit-cover" 
-                     alt="Sloth on a tree" loading="lazy">
             </div>
-
-            <!-- Texto sobre la imagen -->
-            <div class="carousel-caption text-start mb-5 d-none d-md-block" style="z-index:10;">
-                <h1 class="text-white fw-bold display-5">Foto real del equipo</h1>
-                <p class="lead">Texto descriptivo que muestre los valores de la marca</p>
-            </div>
-
-        </div>
+        </nav>
     </div>
+</header>
 
+
+
+<!-- ============================================== -->
+
+<section class="hero-section d-flex align-items-center justify-content-center text-white">
+    <div class="hero-overlay"></div>
+
+    <img src="assets/img/slide.webp" class="hero-bg" alt="Foto equipo">
+
+    <div class="container text-center hero-content">
+        <h1 class="fw-bold mb-3">Foto real del equipo</h1>
+        <p class="lead">Texto descriptivo que muestre los valores de la marca</p>
+    </div>
 </section>
 
-<!-- ========================================================= -->
 
-<section class="py-5" style="background-color:#dfe5db;">
-    
+<!-- ============================================== -->
+<section class="section-green py-5">
     <div class="container">
 
-        <h2 class="text-center fw-bold mb-4" style="color:#2f4a2f;">Who we are?</h2>
+        <div class="row justify-content-center align-items-center g-4">
 
-        <div class="row justify-content-center align-items-center">
-            <!-- imagen -->
-            <div class="col-md-3 d-flex justify-content-center mb-4 mb-md-0">
-                <div class="who-img-wrapper bg-white border rounded shadow-sm d-flex align-items-center justify-content-center">
-                    <img src="assets/img/welcome/safari.webp" class="img-fluid rounded" alt="Family Photo">
+            <!-- FOTO A LA IZQUIERDA -->
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="vertical-photo">
+                    <img src="assets/img/welcome/bird.webp" alt="Foto familia">
                 </div>
             </div>
 
-            <div class="col-md-7">
-                <p class="mb-3">We are a Costa Rican FAMILY, a very united one, and big nature and outdoor lovers.</p>
-                <p class="mb-3">Edgar is the Dad, Ileana is the Mom. Counting 4 children – Edgardo, Yuliana, Ileana, and Jose, 1 daughter in law – Yorleny, and grandsons – Franco and Abraham.</p>
-                <p class="mb-4">We are the RainForest Explorers family, all working together to offer you a lifetime experience in the beautiful land we are honored to live in – our beautiful Costa Rica.</p>
+            <!-- TEXTO A LA DERECHA -->
+            <div class="col-md-7 text-center">
 
-                <a href="#" class="text-success fw-semibold">See more</a>
+                <h2 class="fw-bold section-title mb-4">Who we are?</h2>
+
+                <p>We are a Costa Rican FAMILY, a very united one, and big nature and outdoor lovers.</p>
+
+                <p>Edgar is the Dad, Ileana is the Mom. Counting 4 children – Edgardo, Yuliana, Ileana, and Jose,
+                    1 daughter in law – Yorleny, and grandsons – Franco and Abraham.</p>
+
+                <p>We are the RainForest Explorers family, all working together to offer you a lifetime experience
+                    in the beautiful land we are honored to live in – our beautiful Costa Rica.</p>
+
+                <a href="#" class="fw-semibold see-more">See more</a>
+
             </div>
 
         </div>
@@ -101,88 +94,77 @@
     </div>
 </section>
 
-<!-- ========================================================= -->
 
-<section class="py-5">
+
+
+<!-- ============================================== -->
+
+<section id="what-we-do" class="section-what-we-do py-5">
     <div class="container">
-
-        <h2 class="text-center fw-bold mb-5" style="color:#2f4a2f;">What we do?</h2>
-
-        <div class="row justify-content-center align-items-center">
-
-            <!-- texto -->
-            <div class="col-md-7 order-2 order-md-1">
+        <div class="row align-items-start">
+            <div class="col-md-9">
+                <h2 class="text-center fw-bold section-title mb-4">What we do?</h2>
                 <p class="mb-3">
                     We are focused on offering you an exclusive experience, a distinctive service, a big day of awesome sights, exceeding the way you explore and enjoying the natural wonders, involving a bit of fun, encourage, amazing guides, great food, culture, breathtaking sceneries, and memorable experience. We are looking forward to have you joining us to wonderful expedition around the land of the majestic Arenal Volcao - Costa Rica.
                 </p>
                 <p class="mb-4">
                     As a family, we want to welcome you and invite you to
                 </p>
-
-                <a href="#" class="text-success fw-semibold">See more</a>
             </div>
 
-            
-            <!-- imagen -->
-            <div class="col-md-3 order-1 order-md-2 d-flex justify-content-center mb-4 mb-md-0">
-                <div class="who-img-wrapper d-flex align-items-center justify-content-center">
-                    <img src="assets/img/welcome/honey.webp" class="img-fluid rounded" alt="Working Photo">
+            <div class="col-md-3 d-flex justify-content-center">
+                <div class="vertical-photo">
+                    <img src="assets/img/welcome/honey.webp" alt="Foto trabajando">
                 </div>
             </div>
-
         </div>
-
     </div>
 </section>
 
-<!-- ========================================================= -->
+<!-- ============================================== -->
 
-<section class="container-fluid ">
-    <div class="ratio" style="--bs-aspect-ratio: 25%;">
-        <img src="assets/img/welcome/han.webp" class="w-100 h-100 object-fit-cover" alt="Landscape">
+<section>
+    <div class="landscape-banner">
+        <img src="assets/img/welcome/han.webp" alt="Waterfall">
     </div>
 </section>
 
-<!-- ========================================================= -->
+<!-- ============================================== -->
 
-<section class="py-5" style="background-color:#dfe5db;">
+<section class="section-green py-5">
     <div class="container">
 
-        <h2 class="text-center fw-bold mb-4" style="color:#2f4a2f;">Our sustainability policy</h2>
+        <h2 class="text-center fw-bold section-title mb-4">Our sustainability policy</h2>
 
-        <p class="mx-auto mb-5 text-center" style="max-width:900px;">
-            At Rainforest Explorers we are committed to lead as a developer of lifetime experiences and exclusive nature tours in the Northern Highlands of Costa Rica, within our daily tours we practice a committment to protect and conserve atural resources, avoiding negve environmental impacts, continuously improving and innovaring our services to fulfill the national environmental legistlation.
+        <p class="text-center mx-auto mb-5 section-text">
+           At Rainforest Explorers we are committed to lead as a developer of lifetime experiences and exclusive nature tours in the Northern Highlands of Costa Rica, within our daily tours we practice a committment to protect and conserve atural resources, avoiding negve environmental impacts, continuously improving and innovaring our services to fulfill the national environmental legistlation.
         </p>
-        <p class="mx-auto mb-5 text-center" style="max-width:900px;">
-            We reflect this commitment to all our guests through our practices and staff. In the same way, our attention to small groups offers a more personalized and informative service, wich also allows to lower impact, seeking a balance between society, economy and environment, being those the most important pillars in the sustainable development of the country.     
+
+        <p class="mx-auto section-text">
+            We reflect this commitment to all our guests through our practices and staff. In the same way, our attention to small groups offers a more personalized and informative service, wich also allows to lower impact, seeking a balance between society, economy and environment, being those the most important pillars in the sustainable development of the country.
         </p>
 
     </div>
 </section>
 
-<!-- ========================================================= -->
-<section class="py-5">
+<!-- ============================================== -->
+
+<section class="py-5 bg-white">
     <div class="container">
 
         <div class="row g-4 justify-content-center">
 
-            <div class="col-md-4 d-flex">
-                <div class="p-4 rounded border text-center w-100 d-flex flex-column h-100 justify-content-between"
-                     style="background-color: #dfe5db;">
+            <div class="col-md-4">
+                <div class="info-box h-100 text-center p-4">
                     <h5 class="fw-bold mb-3">Our Mission</h5>
-                    <p class="mb-0">
-                        Leading in authenticity by offering unique life experiences to families, couples, seniors, groups of friends or single travelers; providing a high quality service, personalization and reliability. Promoting the preservation of the Costa Rican environment, culture and traditions. 
-                    </p>
+                    <p> Leading in authenticity by offering unique life experiences to families, couples, seniors, groups of friends or single travelers; providing a high quality service, personalization and reliability. Promoting the preservation of the Costa Rican environment, culture and traditions. </p>
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex">
-                <div class="p-4 rounded border text-center w-100 d-flex flex-column h-100 justify-content-between"
-                     style="background-color: #dfe5db;">
+            <div class="col-md-4">
+                <div class="info-box h-100 text-center p-4">
                     <h5 class="fw-bold mb-3">Our Vision</h5>
-                    <p class="mb-0">
-                        Distinguish ourselves with travelers and providers as a reliable project thath offers unique and authentic experiences, exceeding expectations in service and quality innovating our products towards excellence.
-                    </p>
+                    <p>Distinguish ourselves with travelers and providers as a reliable project thath offers unique and authentic experiences, exceeding expectations in service and quality innovating our products towards excellence.</p>
                 </div>
             </div>
 
@@ -191,11 +173,12 @@
     </div>
 </section>
 
-<!-- ========================================================= -->
+<!---->
 
 <footer class="section-green py-5">
     <div class="container">
         <div class="row align-items-center text-center text-md-start">
+
             <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex justify-content-center justify-content-md-start">
                 <img src="assets/img/logo.png" alt="Rainforest Explorers Logo" height="30">
             </div>
