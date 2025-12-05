@@ -1,0 +1,247 @@
+body
+{
+  background-color: rgb(242, 242, 242);
+  background: linear-gradient(to top, rgba(0, 140, 12, 0.230), rgba(0, 0, 0, 0));
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('assets/img/Rafting.webp') center center/cover no-repeat;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #4e7546;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.4s ease;
+}
+.nav-link:hover {
+  color: #ffe082;
+  transform: scale(1.1)
+}
+
+
+/* Cards de actividades */
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-7px);
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.seeMore{
+  position: absolute;
+  top: 1rem;
+  right: 19.8rem;
+  color: white;
+  font-size: 1.2rem;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+  justify-content: center;
+}
+
+
+/* Barra de paquetes */
+@media (max-width: 480px)
+{
+.packbar{
+  color: #2e7d32;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  left: 3%;
+  border-radius: 1rem;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  width: 27rem;
+  height: 6rem;
+  bottom: 35px;
+}
+}
+
+@media (min-width: 900px)
+{
+.packbar{
+  color: #2e7d32;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  left: 25%;
+  border-radius: 1rem;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  width: 60rem;
+  height: 5.5rem;
+  bottom: 2rem;
+}
+}
+
+@media (max-width: 480px)
+{
+.selected-activitie{
+  padding-top: 20px;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+}
+
+@media (min-width: 900px)
+{
+.selected-activitie{
+  padding-top: 25px;
+  font-size: 21.5px;
+  font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+}
+
+@media (max-width: 480px)
+{
+.confirm-btn{
+  position: relative;
+  text-align: center;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2.5rem;
+  left: 35.5%;
+  top: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.4s ease;
+}
+}
+
+@media (min-width: 900px)
+{
+.confirm-btn{
+  position: relative;
+  text-align: center;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 10px;
+  width: 9rem;
+  height: 2.9rem;
+  left: 40.7%;
+  top: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.4s ease;
+}
+}
+
+.confirm-btn:hover {
+  background-color: #388e3c;
+  transform: scale(1.1)
+}
+
+
+/* Secciones informativas */
+section h3 {
+  color: #1b5e20;
+  margin-bottom: 1rem;
+}
+section ul {
+  list-style: none;
+  padding-left: 0;
+}
+section ul li::before {
+  content: "✔️ ";
+  margin-right: 0.5rem;
+  color: #388e3c;
+}
+
+.add-btn {
+  position: absolute;
+  padding-bottom: 14px;
+  top: 15rem;
+  right: -15px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.4s ease;
+}
+.add-btn:hover {
+  background-color: #388e3c;
+  transform: scale(1.1)
+}
+
+
+/* Footer */
+footer {
+  background-color: #4e7546;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+/* Overlay */
+@media (max-width: 480px)
+{
+.card-overlay {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, rgb(255, 255, 255), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+}
+
+@media (min-width: 900px)
+{
+.card-overlay {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, rgb(255, 255, 255), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+}
