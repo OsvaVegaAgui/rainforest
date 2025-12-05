@@ -1,0 +1,114 @@
+/* --------- secciones --------- */
+.section-padding {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #2e4e33;
+    margin-bottom: 20px;
+}
+
+.section-subtitle {
+    width: 70%;
+    color: #6c757d;
+    font-size: 15px;
+    margin: 0 auto 40px;
+}
+
+.section-bg {
+    background-color: #e8ebe3;
+}
+
+/* --------- cuadros --------- */
+.custom-card {
+    background-color: #f2f4ee;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-card.light {
+    background-color: #ffffff;
+}
+
+.custom-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-left {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+/* --------- textos --------- */
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2e4e33;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* --------- iconos --------- */
+.info-row {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    color: #4d4d4d;
+}
+
+.info-row i {
+    margin-right: 5px;
+}
+
+/* --------- botones --------- */
+.btn-row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: nowrap; 
+}
+
+.btn-custom {
+    background-color: #4d7b52;
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s ease;
+    white-space: nowrap; 
+}
+
+.more-details {
+    color: #4d7b52;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap; 
+}
+
+/* para celular */
+@media (max-width: 768px) {
+    .btn-row {
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        max-width: 100%;
+    }
+}
