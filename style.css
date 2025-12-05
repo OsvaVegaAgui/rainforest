@@ -80,3 +80,6 @@ h3 { font-size: 30px; }
 .shadow-overlay-gray {
   background: linear-gradient(to top, rgba(var(--rgb-secondary), 1), rgba(var(--rgb-secondary), 0.95), rgba(var(--rgb-secondary), 0.8), rgba(var(--rgb-secondary), 0.0));
 }
+
+
+
